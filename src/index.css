@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li {
+  @apply px-6;
+  @apply cursor-pointer;
+  @apply hover:text-[#ff3841];
+  @apply font-semibold;
+}
+
+input {
+  @apply my-2;
+  @apply border;
+  @apply text-sm;
+  @apply h-7;
+  @apply p-2;
+}
