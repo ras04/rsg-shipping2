@@ -1,7 +1,6 @@
 import React from "react";
 import Swal from "sweetalert2";
 
-
 function Mail() {
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -22,22 +21,23 @@ function Mail() {
     }).then((res) => res.json());
 
     if (res.success) {
-        Swal.fire({
-          title: "Success",
-          text: "Your details were submitted successfully",
-          icon: "success",
-          confirmButtonText: "OK"
-        }).then((result) => {
-          if (result.isConfirmed) {
-            window.location.reload();
-          }
-        });
-      }
-
-    
+      Swal.fire({
+        title: "Success",
+        text: "Your details were submitted successfully",
+        icon: "success",
+        confirmButtonText: "OK",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.reload();
+        }
+      });
+    }
   };
   return (
-    <div className="flex justify-center items-center bg-secondary-light p-10">
+    <div
+      name="mail"
+      className="flex justify-center items-center bg-secondary-light p-10"
+    >
       <div className="w-[650px] rounded-lg bg-white p-5">
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-secondary-dark md:text-4xl text-2xl">

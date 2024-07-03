@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 li {
+  @apply text-lg;
   @apply px-6;
   @apply cursor-pointer;
   @apply hover:text-[#ff3841];

@@ -32,20 +32,20 @@ function Footer() {
           </Link>
           <Link to="careers" smooth="true" duration={500}>
             <h1 className="mb-2 font-medium md:text-base text-xs cursor-pointer hover:text-[#ff3841]">
-            Contact US
+              Contact US
             </h1>
           </Link>
         </div>
         <div className="flex flex-col">
           <h1 className="md:text-2xl text-lg  font-medium mb-3">Services</h1>
           <h1 className="mb-2 font-medium md:text-base text-xs">
-          Frieght Forwarding
+            Frieght Forwarding
           </h1>
           <h1 className="mb-2 font-medium md:text-base text-xs">
-          Inventory Managment
+            Inventory Managment
           </h1>
           <h1 className="mb-2 font-medium md:text-base text-xs">
-          Project Cargo Logistics
+            Project Cargo Logistics
           </h1>
         </div>
         <div className="flex flex-col">
@@ -63,9 +63,7 @@ function Footer() {
           </div>
           <div className="flex items-center mb-3">
             <img src={mail} className="md:w-6 w-4 md:h-5 h-3 mr-2 " />
-            <h1 className="font-medium md:text-base text-xs">
-              info@
-            </h1>
+            <h1 className="font-medium md:text-base text-xs">info@</h1>
           </div>
         </div>
         <div className="flex flex-col">
@@ -80,7 +78,7 @@ function Footer() {
       <div className="flex flex-col justify-center items-center">
         <div className="border-b border-zinc-400 mt-20 w-[75%] mb-10"></div>
         <div className="text-[#162c53] font-medium text-[11px] mb-4 md:mb-0 sm:text-lg">
-          © 2024 
+          © 2024
         </div>
       </div>
     </div>

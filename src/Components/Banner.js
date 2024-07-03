@@ -1,5 +1,6 @@
 import React from "react";
 import bg from "../assets/container.jpg";
+import { Link } from "react-scroll";
 
 function Banner() {
   return (
@@ -16,12 +17,16 @@ function Banner() {
           from point A to B
         </h4>
         <div className="py-6 font-semibold">
+          <Link  to="mail" smooth="true" duration={500}>
           <button className="bg-primary-dark md:w-36 w-28 md:h-12 h-9  mr-4 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
             Contact Us
           </button>
+          </Link>
+          <Link to="services" smooth="true" duration={500}>
           <button className="border border-white md:w-36 w-28 md:h-12 h-9 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
             Services
           </button>
+          </Link>
         </div>
       </div>
     </div>
